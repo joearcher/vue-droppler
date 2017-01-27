@@ -5,13 +5,13 @@ Droppler is a Vue 2 component for creating fixed position "dropdown" content usi
 
 Droppler supports all of the options for drop.js.
 
-### Installation
+## Installation
 
 ```bash
 npm install vue-droppler
 ```
 
-### Use
+## Use
 
 Register droppler as a global component:
 ```javascript
@@ -45,6 +45,8 @@ components: {
 ### Options
 Here is the drop.js options object with default values. Any of these can be passed to droppler using a property.
 
+For more information about these options, have a look at the [drop.js documentation](http://github.hubspot.com/drop/)
+
 ```javascript
 {
     position: 'bottom left',
@@ -63,10 +65,13 @@ Here is the drop.js options object with default values. Any of these can be pass
 ### Example with options
 
 ```javascript
-<droppler position="top right" openOn="click" constrainToWindow="false">
+<droppler position="top right" openOn="hover" constrainToWindow="false">
     <button slot="drop-trigger" href="#">Click me</button>
     <div slot="drop-content">
         Some content for the dropdown.
     </div>
 </droppler>
 ```
+
+## License
+Copyright &copy; 2017 Joe Archer - [MIT License](LICENSE)
