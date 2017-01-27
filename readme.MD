@@ -5,8 +5,13 @@ Droppler is a Vue 2 component for creating fixed position "dropdown" content usi
 
 Droppler supports all of the options for drop.js.
 
+### Installation
 
-register droppler as a global component:
+```bash
+npm install vue-droppler
+```
+
+Register droppler as a global component:
 ```javascript
 var droppler = require('droppler');
 Vue.use(droppler);
