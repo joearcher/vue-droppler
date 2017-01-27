@@ -43,7 +43,7 @@ components: {
 ```
 
 ### Options
-Here is the drop.js options object with default values. Any of these can be passed to droppler using a property.
+Here is the options object with default values. Any of these can be passed to droppler using a property.
 
 For more information about these options, have a look at the [drop.js documentation](http://github.hubspot.com/drop/)
 
@@ -52,8 +52,8 @@ For more information about these options, have a look at the [drop.js documentat
     position: 'bottom left',
     openOn: 'click',
     classes: 'drop-theme-basic',
-    constrainToWindow: true,
-    constrainToScrollParent: true,
+    constrainToWindow: false,
+    constrainToScrollParent: false,
     hoverOpenDelay:  0,
     hoverCloseDelay:  50,
     focusDelay:  0,
@@ -65,7 +65,7 @@ For more information about these options, have a look at the [drop.js documentat
 ### Example with options
 
 ```javascript
-<droppler position="top right" openOn="hover" constrainToWindow="false">
+<droppler position="top right" openOn="hover" constrainToWindow="true">
     <button slot="drop-trigger" href="#">Click me</button>
     <div slot="drop-content">
         Some content for the dropdown.
