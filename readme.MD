@@ -30,12 +30,12 @@ components: {
 ...
 ```
 
-To create a basic drop down:
+### Basic example
 
 ```javascript
 
 <droppler>
-    <button slot="drop-trigger" href="#">Click me</button>
+    <button slot="drop-trigger">Click me</button>
     <div slot="drop-content">
         Some content for the dropdown.
     </div>
@@ -60,7 +60,7 @@ Here is the drop.js options object with default values. Any of these can be pass
 }
 ```
 
-### Example
+### Example with options
 
 ```javascript
 <droppler position="top right" openOn="click" constrainToWindow="false">
