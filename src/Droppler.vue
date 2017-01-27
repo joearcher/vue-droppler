@@ -16,7 +16,7 @@ export default {
 
     props: [
         'position',
-        'open',
+        'openOn',
         'classes',
         'constrainToWindow',
         'constrainToScrollParent',
@@ -40,7 +40,7 @@ export default {
             target: this.$refs.dropTrigger,
             content: this.$refs.dropContent,
             position: this.position ? this.position : 'bottom left',
-            openOn: this.open ? this.open : 'click',
+            openOn: this.openOn ? this.openOn : 'click',
             classes: this.classes ? this.classes : 'drop-theme-basic',
             constrainToWindow: this.constrainToWindow ? this.constrainToWindow : true,
             constrainToScrollParent: this.constrainToScrollParent ? this.constrainToScrollParent : true,
