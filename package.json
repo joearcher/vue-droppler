@@ -1,5 +1,5 @@
 {
-  "name": "droppler",
+  "name": "vue-droppler",
   "version": "0.1.1",
   "description": "Super simple dropdowns for Vue using drop.js",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/joearcher/droppler.git"
+    "url": "git+ssh://git@github.com/joearcher/vue-droppler.git"
   },
   "keywords": [
     "Dropdowns",
@@ -21,9 +21,9 @@
   "author": "Joe Archer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joearcher/droppler/issues"
+    "url": "https://github.com/joearcher/vue-droppler/issues"
   },
-  "homepage": "https://github.com/joearcher/droppler#readme",
+  "homepage": "https://github.com/joearcher/vue-droppler#readme",
   "dependencies": {
     "tether-drop": "^1.4.2"
   }
