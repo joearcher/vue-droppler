@@ -44,7 +44,7 @@ To create a basic drop down:
 ```
 
 ### Options
-Here is the drop.js options object with default value. Any of these can be passed to droppler using a property.
+Here is the drop.js options object with default values. Any of these can be passed to droppler using a property.
 
 ```javascript
 {
