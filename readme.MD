@@ -15,8 +15,7 @@ npm install vue-droppler
 
 Register droppler as a global component:
 ```javascript
-var droppler = require('droppler');
-Vue.use(droppler);
+Vue.component('droppler', require('vue-droppler'));
 ```
 
 or use it in a single component:
