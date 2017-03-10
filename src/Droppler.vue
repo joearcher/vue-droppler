@@ -24,8 +24,8 @@ export default {
         'hoverCloseDelay',
         'focusDelay',
         'blurDelay',
-        'tetherOptions'
-
+        'tetherOptions',
+        'remove'
     ],
 
     data() {
@@ -48,7 +48,8 @@ export default {
             hoverCloseDelay: this.hoverOpenDelay ? this.hoverCloseDelay : 50,
             focusDelay: this.focusDelay ? this.focusDelay : 0,
             blurDelay: this.blurDelay ? this.blurDelay : 50,
-            tetherOptions: this.tetherOptions ? this.tetherOptions : {}
+            tetherOptions: this.tetherOptions ? this.tetherOptions : {},
+            remove: this.remove ? true : false,
         });
     }
 }
