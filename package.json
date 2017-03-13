@@ -1,6 +1,6 @@
 {
   "name": "vue-droppler",
-  "version": "0.1.2",
+  "version": "0.1.2.1",
   "description": "Super simple dropdowns for Vue using drop.js",
   "main": "index.js",
   "scripts": {
