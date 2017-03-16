@@ -45,7 +45,7 @@ export default {
             constrainToWindow: this.constrainToWindow ? true : false,
             constrainToScrollParent: this.constrainToScrollParent ? true : false,
             hoverOpenDelay: this.hoverOpenDelay ? this.hoverOpenDelay : 0,
-            hoverCloseDelay: this.hoverOpenDelay ? this.hoverCloseDelay : 50,
+            hoverCloseDelay: this.hoverCloseDelay ? this.hoverCloseDelay : 50,
             focusDelay: this.focusDelay ? this.focusDelay : 0,
             blurDelay: this.blurDelay ? this.blurDelay : 50,
             tetherOptions: this.tetherOptions ? this.tetherOptions : {},
